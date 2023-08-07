@@ -8,6 +8,18 @@ function LinkedList () {
     this._length = 0;
     this.head = null;
 }
+LinkedList.prototype.instertAlIncio = function (data) {
+    let nodo = new Nodo(data);
+    let current = this.head;
+    if (!this.head){
+        this.head = nodo;
+    } else {
+        nodo.next = current;
+        this.head = nodo;
+    }
+        this._length++;
+        return nodo;
+    };
 LinkedList.prototype.insertarray = function(array) {
     array.forEach(element => {this.insert(element); 
     });
