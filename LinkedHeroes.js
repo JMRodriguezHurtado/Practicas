@@ -8,7 +8,7 @@ function LinkedList () {
     this._length = 0;
     this.head = null;
 }
-LinkedList.prototype.instertAlIncio = function (data) {
+LinkedList.prototype.insertAlIncio = function (data) {
     let nodo = new Nodo(data);
     let current = this.head;
     if (!this.head){
@@ -100,6 +100,14 @@ LinkedList.prototype.slice = function(start, end) {
     slicedList.insert(endNode.data);
     return slicedList;
 };
+LinkedList.prototype.mapObjetos = function(element) {
+    let currentNode = this.head;
+    while(currentNode) {
+        currentNode.data = word(currentNode.data);
+        currentNode = currentNode.next;
+    }
+};
+
 
 let heroes = new LinkedList;
 
