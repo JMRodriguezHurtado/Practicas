@@ -7,13 +7,13 @@ const BinarySearchTree = function (value){
 };
 
 BinarySearchTree.prototype.insert = function (value) {
-    if(value < this.value) {
+    if(value.edad < this.value.edad) {
         if (this.left === null) {
             this.left = new BinarySearchTree (value);
         } else {
             this.left.insert(value);
         }
-    } if(value > this.value) {
+    } if(value.edad > this.value.edad) {
         if (this.right === null) {
             this.right = new BinarySearchTree (value);
         } else {
@@ -60,21 +60,26 @@ BinarySearchTree.prototype.buscarTodosLosMenores = function (value) {
     } return losMenores;
 }
 BinarySearchTree.prototype.insertArray = function(array) {
-    array.sort((a, b) => a.edad - b.edad); 
     array.forEach((element) => this.insert(element));
 };
 const gente = [
     { nombre: 'Carol', edad: 24, altura: 146 },
-    { nombre: 'Gonzalo', edad: 24, altura: 184 },
-    { Nombre: 'Micaias', edad: 20, altura: 181 },
-    { Nombre: 'Coraline', edad: 22, altura: 165 },
-    { Nombre: 'Marcos', edad: 19, altura: 154 },
+    { nombre: 'Gonzalo', edad: 30, altura: 184 },
+    { nombre: 'Micaias', edad: 20, altura: 181 },
+    { nombre: 'Coraline', edad: 22, altura: 165 },
+    { nombre: 'Marcos', edad: 19, altura: 154 },
     { nombre: 'Mati', edad: 14, altura: 175 }
     ];
-let hospital = new BinarySearchTree(null);
-console.log(hospital);
-hospital.insert(1);
-console.log(hospital);
-hospital.insert(4);
-hospital.insert(3);
-console.log(hospital);
+/*let prueba = new BinarySearchTree(1);
+//console.log(prueba);
+prueba.insert(5);
+//console.log(prueba);
+prueba.insert(3);
+console.log(prueba);*/
+
+let hospital = new BinarySearchTree({nombre: "Carlos", edad: 45, altura: 160});
+//console.log(hospital);
+hospital.insertArray(gente);
+//sconsole.log(hospital);
+console.log(hospital.size())
+console.log(hospital.buscarTodosLosMenores(25));
