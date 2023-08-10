@@ -62,6 +62,16 @@ BinarySearchTree.prototype.buscarPaQueMeAlcanza = function (efectivo) {
 BinarySearchTree.prototype.insertArray = function(array) {
     array.forEach((element) => this.insert(element));
 };
+BinarySearchTree.prototype.sumation = function () {
+    let suma = 0;
+    if (this.root) {
+        suma += this.root;
+    } if (this.left) {
+        suma += this.left.sumation();
+    } if (this.right) {
+        suma += this.right.sumation();
+    } return suma;
+}
 
 let bar = new BinarySearchTree ({trago: "margarita", precio: 80});
 console.log(bar);

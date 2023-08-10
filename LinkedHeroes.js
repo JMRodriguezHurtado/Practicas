@@ -107,6 +107,16 @@ LinkedList.prototype.mapObjetos = function(element) {
         currentNode = currentNode.next;
     }
 };
+LinkedList.prototype.changeNotNumbers = function () {
+    let current = this.head;
+    let count = 0;
+    while (current);
+    if(isNaN(Number(current.data))) {
+        current.data = "Kiricocho";
+        count++
+    } current = current.next;
+    return count;
+}
 
 
 let heroes = new LinkedList;

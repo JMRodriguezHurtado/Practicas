@@ -14,6 +14,18 @@ function Queue () {
   Queue.prototype.search = function(valor) {
     return this.lista.includes(valor); 
   }
+  Queue.prototype.merge = function(queue1, queue2) {
+    let result = new Queue();
+    while(queue1.size() && queue2.size()) {
+      result.enqueue(queue1.dequeue());
+      result.enqueue(queue2.dequeue());
+    } while (queue1.size() > 0) {
+      result.enqueue(queue1.dequeue());
+    } while(queue2.size() > 0) {
+      result.enqueue(queue2.dequeue());
+    } return result;
+  }
+  
 
   function contarTragos (Queue) {
     const tragos = {};
