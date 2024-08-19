@@ -1,0 +1,12 @@
+C:\Users\JMRod\Desktop\GitHub\Practicas\WebEcommerce\WebEcommerce.Entities\bin\Debug\net8.0\WebEcommerce.Entities.deps.json
+C:\Users\JMRod\Desktop\GitHub\Practicas\WebEcommerce\WebEcommerce.Entities\bin\Debug\net8.0\WebEcommerce.Entities.dll
+C:\Users\JMRod\Desktop\GitHub\Practicas\WebEcommerce\WebEcommerce.Entities\bin\Debug\net8.0\WebEcommerce.Entities.pdb
+C:\Users\JMRod\Desktop\GitHub\Practicas\WebEcommerce\WebEcommerce.Entities\obj\Debug\net8.0\WebEcommerce.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\JMRod\Desktop\GitHub\Practicas\WebEcommerce\WebEcommerce.Entities\obj\Debug\net8.0\WebEcommerce.Entities.AssemblyInfoInputs.cache
+C:\Users\JMRod\Desktop\GitHub\Practicas\WebEcommerce\WebEcommerce.Entities\obj\Debug\net8.0\WebEcommerce.Entities.AssemblyInfo.cs
+C:\Users\JMRod\Desktop\GitHub\Practicas\WebEcommerce\WebEcommerce.Entities\obj\Debug\net8.0\WebEcommerce.Entities.csproj.CoreCompileInputs.cache
+C:\Users\JMRod\Desktop\GitHub\Practicas\WebEcommerce\WebEcommerce.Entities\obj\Debug\net8.0\WebEcommerce.Entities.sourcelink.json
+C:\Users\JMRod\Desktop\GitHub\Practicas\WebEcommerce\WebEcommerce.Entities\obj\Debug\net8.0\WebEcommerce.Entities.dll
+C:\Users\JMRod\Desktop\GitHub\Practicas\WebEcommerce\WebEcommerce.Entities\obj\Debug\net8.0\refint\WebEcommerce.Entities.dll
+C:\Users\JMRod\Desktop\GitHub\Practicas\WebEcommerce\WebEcommerce.Entities\obj\Debug\net8.0\WebEcommerce.Entities.pdb
+C:\Users\JMRod\Desktop\GitHub\Practicas\WebEcommerce\WebEcommerce.Entities\obj\Debug\net8.0\ref\WebEcommerce.Entities.dll
